@@ -16,13 +16,14 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:ems="10"
-        android:hint="X coordinates"
+        android:hint="Message"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        android:visibility="gone"
         android:id="@+id/etY"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

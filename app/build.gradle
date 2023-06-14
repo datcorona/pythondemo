@@ -5,23 +5,149 @@ plugins {
 }
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 33
 
     defaultConfig {
+
+        python {
+            version "3.8"
+            buildPython "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python38\\python.exe"
+        }
+
         applicationId "com.chaquo.myapplication"
         minSdkVersion 21
-        targetSdkVersion 31
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
+//        ndk {
+//            abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
+//        }
         ndk {
-            abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
+            abiFilters 'arm64-v8a'
         }
         python {
             pip {
-                install "matplotlib"
+//                install "matplotlib"
+//                install "PyMuPDF"
+//                install "numpy"
+                install "scikit-learn"
+//                install "tensorflow"
+//                install "tensorflow-hub"
+//                install "openai==0.10.2"
+
+
+//                install "aiohttp==3.8.4"
+//                install "aiosignal==1.3.1"
+//                install "anyio==3.6.2"
+//                install "argilla==1.6.0"
+//                install "async-timeout==4.0.2"
+//                install "attrs==23.1.0"
+//                install "backoff==2.2.1"
+//                install "certifi==2023.5.7"
+//                install "cffi==1.15.1"
+//                install "charset-normalizer==3.1.0"
+//                install "chromadb==0.3.22"
+//                install "click==8.1.3"
+//                install "clickhouse-connect==0.5.23"
+//                install "colorama==0.4.6"
+//                install "commonmark==0.9.1"
+//                install "cryptography==40.0.2"
+//                install "dataclasses-json==0.5.7"
+//                install "Deprecated==1.2.13"
+//                install "duckdb==0.7.1"
+//                install "et-xmlfile==1.1.0"
+//                install "faiss-cpu==1.7.4"
+//                install "fastapi==0.95.1"
+//                install "filelock==3.12.0"
+//                install "frozenlist==1.3.3"
+//                install "fsspec==2023.5.0"
+//                install "greenlet==2.0.2"
+//                install "h11==0.14.0"
+//                install "hnswlib==0.7.0"
+//                install "httpcore==0.16.3"
+//                install "httptools==0.5.0"
+//                install "httpx==0.23.3"
+//                install "huggingface-hub==0.14.1"
+//                install "idna==3.4"
+//                install "importlib-metadata==6.6.0"
+//                install "Jinja2==3.1.2"
+//                install "joblib==1.2.0"
+                install "langchain==0.0.200"
+                install "chatterbot"
+                install "thinc"
+                install "spacy"
+//                install "lxml==4.9.2"
+//                install "lz4==4.3.2"
+//                install "Markdown==3.4.3"
+//                install "MarkupSafe==2.1.2"
+//                install "marshmallow==3.19.0"
+//                install "marshmallow-enum==1.5.1"
+//                install "monotonic==1.6"
+//                install "mpmath==1.3.0"
+//                install "msg-parser==1.2.0"
+//                install "multidict==6.0.4"
+//                install "mypy-extensions==1.0.0"
+//                install "networkx==3.1"
+//                install "nltk==3.8.1"
+                install "numexpr"
+//                install "numpy==1.23.5"
+//                install "olefile==0.46"
+//                install "openai==0.27.6"
+//                install "openapi-schema-pydantic==1.2.4"
+//                install "openpyxl==3.1.2"
+//                install "packaging==23.1"
+//                install "pandas==1.5.3"
+//                install "pdfminer.six==20221105"
+//                install "Pillow==9.5.0"
+//                install "posthog==3.0.1"
+//                install "pycparser==2.21"
+//                install "pydantic==1.10.7"
+//                install "Pygments==2.15.1"
+//                install "pypandoc==1.11"
+                install "pypdf==3.8.1"
+//                install "python-dateutil==2.8.2"
+//                install "python-docx==0.8.11"
+//                install "python-dotenv==1.0.0"
+//                install "python-magic==0.4.27"
+//                install "python-pptx==0.6.21"
+//                install "pytz==2023.3"
+//                install "PyYAML==6.0"
+//                install "regex==2023.5.5"
+//                install "requests==2.30.0"
+//                install "rfc3986==1.5.0"
+//                install "rich==13.0.1"
+//                install "scikit-learn==1.2.2"
+//                install "scipy==1.10.1"
+//                install "sentence-transformers==2.2.2"
+//                install "sentencepiece==0.1.99"
+//                install "six==1.16.0"
+//                install "sniffio==1.3.0"
+//                install "SQLAlchemy==2.0.12"
+//                install "starlette==0.26.1"
+//                install "sympy==1.11.1"
+//                install "tenacity==8.2.2"
+//                install "threadpoolctl==3.1.0"
+//                install "tiktoken==0.4.0"
+//                install "tokenizers==0.13.3"
+//                install "torch==2.0.1"
+//                install "torchvision==0.15.2"
+//                install "tqdm==4.65.0"
+//                install "transformers==4.28.1"
+//                install "typing-inspect==0.8.0"
+//                install "typing_extensions==4.5.0"
+//                install "unstructured==0.6.3"
+//                install "urllib3==2.0.2"
+//                install "uvicorn==0.22.0"
+//                install "watchfiles==0.19.0"
+//                install "websockets==11.0.3"
+//                install "wrapt==1.14.1"
+//                install "XlsxWriter==3.1.0"
+//                install "yarl==1.9.2"
+//                install "zipp==3.15.0"
+//                install "zstandard==0.21.0"
             }
         }
     }

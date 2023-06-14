@@ -1,0 +1,488 @@
+"HỌ VÀ TÊN SINH VIÊN: ………………………………....................LỚP: ………………….\n" +
+                    "ĐỀ THI LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG\n" +
+                    "Thời gian: 60 phút\n" +
+                    "Một số chú ý:\n" +
+                    "• Chương trình bắt buộc phải sử dụng giao diện. Sinh viên có thể sử dụng kéo thả. Các\n" +
+                    "chức năng có lựa chọn thì phải sử dụng hộp chọn.\n" +
+                    "• Sinh viên phải xử lý đầy đủ các ngoại lệ khi nhập dữ liệu và các ngoại lệ được yêu cầu\n" +
+                    "trong đề bài. Với hai câu 1 và 2, nếu không xử lý ngoại lệ thì không được tính điểm.\n" +
+                    "• Sinh viên tự thiết kế các lớp liên quan và phải mô tả đúng quan hệ giữa các lớp. .\n" +
+                    "• Dữ liệu được lưu ra file, sinh viên có thể tùy chọn file nhị phân hoặc file văn bản.\n" +
+                    "• Kết quả phải hiển thị dạng Bảng.\n" +
+                    "• Khuyến khích sử dụng các lớp thư viện Collections.\n" +
+                    "ĐỀ SỐ 1: QUẢN LÝ BÁN HÀNG TRONG SIÊU THỊ\n" +
+                    "Thông tin về Mặt hàng gồm các thuộc tính (mã hàng, Tên hàng, Nhóm hàng, Giá bán) – trong đó\n" +
+                    "Nhóm hàng có thể là: Hàng thời trang, Hàng tiêu dùng, Hàng điện máy, Hàng gia dụng. Mã hàng là\n" +
+                    "một số nguyên có 4 chữ số, tự động tăng\n" +
+                    "Thông tin về Khách hàng (mã KH, Họ tên, địa chỉ, Số ĐT), mã KH là một số nguyên có 5 chữ số, tự\n" +
+                    "động tăng.\n" +
+                    "Bổ sung Bảng Danh sách mua hàng trong đó với mỗi khách hàng, nhập danh sách các mặt hàng và\n" +
+                    "số lượng mà khách hàng đó mua. Giả sử mỗi khách hàng không mua quá 10 loại mặt hàng một lần.\n" +
+                    "Tự xác định các lớp cho phù hợp và viết chương trình có giao diện (có thể dùng kéo thả) thực hiện các\n" +
+                    "chức năng sau:\n" +
+                    "1. Nhập thêm mặt hàng mới vào file MH.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách các\n" +
+                    "mặt hàng đã có trong file.\n" +
+                    "2. Nhập thêm khách hàng vào file KH.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách khách\n" +
+                    "hàng đã có trong file.\n" +
+                    "3. Lập Bảng danh sách mua hàng cho từng khách hàng, lưu vào file QLBH.TXT và in danh sách\n" +
+                    "ra màn hình (chú ý: cùng một khách hàng với một mặt hàng thì không thể xuất hiện 2 lần trong\n" +
+                    "bảng này).\n" +
+                    "4. Sắp xếp danh sách Bảng danh sách mua hàng đã lưu trong QLBH.TXT\n" +
+                    "a. Theo tên khách hàng\n" +
+                    "b. Theo tên mặt hàng\n" +
+                    "5. Lập hóa đơn chi tiết cho mỗi khách hàng.\n" +
+                    "ĐỀ THI LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG\n" +
+                    "Thời gian: 60 phút\n" +
+                    "Một số chú ý:\n" +
+                    "• Chương trình bắt buộc phải sử dụng giao diện. Sinh viên có thể sử dụng kéo thả. Các\n" +
+                    "chức năng có lựa chọn thì phải sử dụng hộp chọn.\n" +
+                    "• Sinh viên phải xử lý đầy đủ các ngoại lệ khi nhập dữ liệu và các ngoại lệ được yêu cầu\n" +
+                    "trong đề bài. Với hai câu 1 và 2, nếu không xử lý ngoại lệ thì không được tính điểm.\n" +
+                    "• Sinh viên tự thiết kế các lớp liên quan và phải mô tả đúng quan hệ giữa các lớp. .\n" +
+                    "• Dữ liệu được lưu ra file, sinh viên có thể tùy chọn file nhị phân hoặc file văn bản.\n" +
+                    "• Kết quả phải hiển thị dạng Bảng.\n" +
+                    "• Khuyến khích sử dụng các lớp thư viện Collections.\n" +
+                    "ĐỀ SỐ 2: QUẢN LÝ NHÂN SỰ\n" +
+                    "Thông tin về Nhân viên gồm các thuộc tính (mã nhân viên, Họ tên, Địa chỉ, Số điện thoại, Bậc\n" +
+                    "lương) – trong đó Bậc lương là một số nguyên từ 1 đến 9. Mã nhân viên là một số nguyên có 4 chữ\n" +
+                    "số, tự động tăng.\n" +
+                    "Thông tin về Phòng ban (mã phòng, tên phòng, mô tả, Hệ số công việc), mã phòng là một số nguyên\n" +
+                    "có 3 chữ số, tự động tăng. Hệ số công việc là một số thực từ trong khoảng từ 1 đến 20, cho biết mức\n" +
+                    "đánh giá chung về các công việc thuộc phòng đó đảm nhiệm.\n" +
+                    "Bổ sung Bảng Danh sách chấm công (trong một tháng), trong đó với mỗi nhân viên cho biết phòng\n" +
+                    "ban tương ứng và số ngày làm việc trong tháng.\n" +
+                    "Tự xác định các lớp cho phù hợp và viết chương trình có giao diện (có thể dùng kéo thả) thực hiện các\n" +
+                    "chức năng sau:\n" +
+                    "1. Nhập thêm nhân viên mới vào file NV.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách các\n" +
+                    "nhân viên đã có trong file.\n" +
+                    "2. Nhập thêm phòng ban vào file PB.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách phòng\n" +
+                    "ban đã có trong file.\n" +
+                    "3. Lập Bảng danh sách chấm công cho từng nhân viên, lưu vào file QLNS.TXT và in danh sách\n" +
+                    "ra màn hình (chú ý: cùng một nhân viên không thể làm việc ở hai phòng ban khác nhau).\n" +
+                    "4. Sắp xếp danh sách Bảng danh sách phân công đã lưu trong QLNS.TXT\n" +
+                    "a. Theo tên nhân viên\n" +
+                    "b. Theo phòng ban\n" +
+                    "5. Lập bảng kê chi tiết tính toán thu nhập cho mỗi nhân viên trong tháng. Thu nhập = 1.450.000\n" +
+                    "* (2 + Bậc lương/3) * Hệ số công việc * (số ngày làm việc/22).\n" +
+                    "ĐỀ THI LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG\n" +
+                    "Thời gian: 60 phút\n" +
+                    "Một số chú ý:\n" +
+                    "• Chương trình bắt buộc phải sử dụng giao diện. Sinh viên có thể sử dụng kéo thả. Các chức\n" +
+                    "năng có lựa chọn thì phải sử dụng hộp chọn.\n" +
+                    "• Sinh viên phải xử lý đầy đủ các ngoại lệ khi nhập dữ liệu và các ngoại lệ được yêu cầu trong\n" +
+                    "đề bài. Với hai câu 1 và 2, nếu không xử lý ngoại lệ thì không được tính điểm.\n" +
+                    "• Sinh viên tự thiết kế các lớp liên quan và phải mô tả đúng quan hệ giữa các lớp. .\n" +
+                    "• Dữ liệu được lưu ra file, sinh viên có thể tùy chọn file nhị phân hoặc file văn bản.\n" +
+                    "• Kết quả phải hiển thị dạng Bảng.\n" +
+                    "• Khuyến khích sử dụng các lớp thư viện Collections.\n" +
+                    "ĐỀ SỐ 3: QUẢN LÝ DỰ ÁN\n" +
+                    "Thông tin về Dự án gồm các thuộc tính (mã dự án, Tên dự án, Kiểu dự án, Tổng kinh phí) – trong đó\n" +
+                    "kiểu dự án có thể gồm: nhỏ, trung bình hoặc lớn. Mã dự án là một số nguyên có 5 chữ số, tự động tăng.\n" +
+                    "Thông tin về Nhân viên (mã NV, Họ tên, địa chỉ, chuyên môn), mã NV là một số nguyên có 5 chữ số, tự\n" +
+                    "động tăng.\n" +
+                    "Bổ sung Bảng phân công trong đó một nhân viên có thể được gán cho một hoặc nhiều dự án một lúc với\n" +
+                    "số ngày tham gia khác nhau và vị trí công việc khác nhau.\n" +
+                    "Tự xác định các lớp cho phù hợp và viết chương trình có giao diện (có thể dùng kéo thả) thực hiện các\n" +
+                    "chức năng sau:\n" +
+                    "1. Nhập thêm dự án vào file DA.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách dự án đã có\n" +
+                    "trong file.\n" +
+                    "2. Nhập thêm nhân viên vào file NV.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách nhân\n" +
+                    "viên đã có trong file.\n" +
+                    "3. Nhập danh sách phân công dự án cho mỗi nhân viên đã có trong file NV.TXT. Lưu vào file\n" +
+                    "PHANCONG.TXT và in danh sách ra màn hình. (chú ý: cùng một nhân viên thì không thể\n" +
+                    "tham gia cùng một dự án với hai vị trí khác nhau nhưng có thể tham gia cùng lúc vào nhiều dự\n" +
+                    "án)\n" +
+                    "4. Sắp xếp danh sách phân công đã lưu trong PHANCONG.TXT\n" +
+                    "a. Theo Họ tên nhân viên\n" +
+                    "b. Theo Số ngày tham gia (giảm dần)\n" +
+                    "5. Tìm kiếm và hiển thị danh sách phân công theo tên nhân viên và theo tên dự án (gần đúng)\n" +
+                    "ĐỀ THI LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG\n" +
+                    "Thời gian: 60 phút\n" +
+                    "Một số chú ý:\n" +
+                    "• Chương trình bắt buộc phải sử dụng giao diện. Sinh viên có thể sử dụng kéo thả. Các chức\n" +
+                    "năng có lựa chọn thì phải sử dụng hộp chọn.\n" +
+                    "• Sinh viên phải xử lý đầy đủ các ngoại lệ khi nhập dữ liệu và các ngoại lệ được yêu cầu trong\n" +
+                    "đề bài. Với hai câu 1 và 2, nếu không xử lý ngoại lệ thì không được tính điểm.\n" +
+                    "• Sinh viên tự thiết kế các lớp liên quan và phải mô tả đúng quan hệ giữa các lớp. .\n" +
+                    "• Dữ liệu được lưu ra file, sinh viên có thể tùy chọn file nhị phân hoặc file văn bản.\n" +
+                    "• Kết quả phải hiển thị dạng Bảng.\n" +
+                    "• Khuyến khích sử dụng các lớp thư viện Collections.\n" +
+                    "ĐỀ SỐ 4: QUẢN LÝ TÍNH CÔNG THEO SẢN PHẨM\n" +
+                    "Thông tin về Công nhân gồm các thuộc tính (mã CN, Họ tên, Địa chỉ, Ca sản xuất) – trong đó ca\n" +
+                    "sản xuất có thể là: ca sáng, ca chiều hoặc ca đêm, mã CN là một số nguyên có 5 chữ số, tự động tăng.\n" +
+                    "Thông tin về Sản phẩm (mã SP, tên SP, đơn giá), mã SP là một số nguyên có 5 chữ số, tự động tăng.\n" +
+                    "Bổ sung Bảng Tính Công trong đó một công nhân sẽ thực hiện sản xuất nhiều sản phẩm cùng loại\n" +
+                    "hoặc nhiều loại sản phẩm khác nhau. Giả sử mỗi công nhân chỉ được tham gia sản xuất tối đa 5 loại\n" +
+                    "sản phẩm khác nhau.\n" +
+                    "Tự xác định các lớp cho phù hợp và viết chương trình có giao diện (có thể dùng kéo thả) thực hiện các\n" +
+                    "chức năng sau:\n" +
+                    "1. Nhập thêm công nhân vào file CN.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách công\n" +
+                    "nhân đã có trong file.\n" +
+                    "2. Nhập thêm sản phẩm vào file SP.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách sản phẩm\n" +
+                    "đã có trong file.\n" +
+                    "3. Lập Bảng tính công cho công nhân bằng cách nhập các loại sản phẩm mà mỗi công nhân đã có\n" +
+                    "trong file CN.TXT đã sản xuất cùng số lượng tương ứng; lưu vào file TINHCONG.TXT và in\n" +
+                    "danh sách ra màn hình. (Chú ý: một công nhân với cùng một loại sản phẩm không được phép\n" +
+                    "xuất hiện quá một lần trong bảng này)\n" +
+                    "4. Sắp xếp danh sách Bảng tính công đã lưu trong TINHCONG.TXT\n" +
+                    "a. Theo Họ tên Công nhân\n" +
+                    "b. Theo Số lượng sản phẩm (giảm dần)\n" +
+                    "5. Lập bảng kê tính toán chi tiết thu nhập của mỗi công nhân\n" +
+                    "ĐỀ THI LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG\n" +
+                    "Thời gian: 60 phút\n" +
+                    "Một số chú ý:\n" +
+                    "• Chương trình bắt buộc phải sử dụng giao diện. Sinh viên có thể sử dụng kéo thả. Các chức\n" +
+                    "năng có lựa chọn thì phải sử dụng hộp chọn.\n" +
+                    "• Sinh viên phải xử lý đầy đủ các ngoại lệ khi nhập dữ liệu và các ngoại lệ được yêu cầu trong\n" +
+                    "đề bài. Với hai câu 1 và 2, nếu không xử lý ngoại lệ thì không được tính điểm.\n" +
+                    "• Sinh viên tự thiết kế các lớp liên quan và phải mô tả đúng quan hệ giữa các lớp. .\n" +
+                    "• Dữ liệu được lưu ra file, sinh viên có thể tùy chọn file nhị phân hoặc file văn bản.\n" +
+                    "• Kết quả phải hiển thị dạng Bảng.\n" +
+                    "• Khuyến khích sử dụng các lớp thư viện Collections.\n" +
+                    "ĐỀ SỐ 5: QUẢN LÝ BÁN HÀNG\n" +
+                    "Thông tin về Khách hàng gồm các thuộc tính (mã KH, Họ tên, Địa chỉ, Nhóm KH) – trong đó nhóm\n" +
+                    "khách hàng có thể gồm: mua lẻ, mua buôn, mua qua mạng, mã KH là một số nguyên có 5 chữ số, tự\n" +
+                    "động tăng.\n" +
+                    "Thông tin về Mặt hàng (mã hàng, tên hàng, đơn giá), mã hàng là một số nguyên có 5 chữ số, tự động\n" +
+                    "tăng.\n" +
+                    "Bổ sung Hóa đơn trong đó một khách hàng có thể chọn mua một hoặc nhiều mặt hàng với số lượng khác\n" +
+                    "nhau.\n" +
+                    "Tự xác định các lớp cho phù hợp và viết chương trình có giao diện (có thể dùng kéo thả) thực hiện các chức\n" +
+                    "năng sau:\n" +
+                    "1. Nhập thêm Khách hàng vào file KH.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách khách\n" +
+                    "hàng đã có trong file.\n" +
+                    "2. Nhập thêm Mặt hàng vào file MATHANG.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách\n" +
+                    "mặt hàng đã có trong file.\n" +
+                    "3. Nhập danh sách mua hàng cho mỗi khách hàng đã có trong file KH.TXT. Lưu vào file\n" +
+                    "HOADON.TXT và in danh sách ra màn hình .\n" +
+                    "4. Sắp xếp danh sách mua hàng đã lưu trong HOADON.TXT\n" +
+                    "a. Theo Họ tên khách hàng\n" +
+                    "b. Theo Số lượng mặt hàng (giảm dần)\n" +
+                    "5. Lập bảng kê tính toán tổng số tiền phải trả cho mỗi khách hàng\n" +
+                    "ĐỀ THI LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG\n" +
+                    "Thời gian: 60 phút\n" +
+                    "Một số chú ý:\n" +
+                    "• Chương trình bắt buộc phải sử dụng giao diện. Sinh viên có thể sử dụng kéo thả. Các chức\n" +
+                    "năng có lựa chọn thì phải sử dụng hộp chọn.\n" +
+                    "• Sinh viên phải xử lý đầy đủ các ngoại lệ khi nhập dữ liệu và các ngoại lệ được yêu cầu trong\n" +
+                    "đề bài. Với hai câu 1 và 2, nếu không xử lý ngoại lệ thì không được tính điểm.\n" +
+                    "• Sinh viên tự thiết kế các lớp liên quan và phải mô tả đúng quan hệ giữa các lớp. .\n" +
+                    "• Dữ liệu được lưu ra file, sinh viên có thể tùy chọn file nhị phân hoặc file văn bản.\n" +
+                    "• Kết quả phải hiển thị dạng Bảng.\n" +
+                    "• Khuyến khích sử dụng các lớp thư viện Collections.\n" +
+                    "ĐỀ SỐ 6: QUẢN LÝ DỊCH VỤ VIỄN THÔNG\n" +
+                    "Thông tin về Khách hàng gồm các thuộc tính (mã KH, Họ tên, Địa chỉ, Loại KH) – với Loại khách\n" +
+                    "hàng có thể là: cá nhân, đại diện đơn vị hành chính, đại diện đơn vị kinh doanh, mã KH là một số\n" +
+                    "nguyên có 5 chữ số, tự động tăng.\n" +
+                    "Thông tin về Dịch vụ (mã DV, tên DV, giá cước, đơn vị tính) mã DV là một số nguyên có 3 chữ số,\n" +
+                    "tự động tăng.\n" +
+                    "Bổ sung Hóa đơn trong đó một khách hàng có thể sử dụng một hoặc nhiều dịch vụ. Giả sử mỗi khách\n" +
+                    "được phép sử dụng không quá 5 loại dịch vụ khác nhau.\n" +
+                    "Tự xác định các lớp cho phù hợp và viết chương trình có giao diện (có thể dùng kéo thả) thực hiện các\n" +
+                    "chức năng sau:\n" +
+                    "1. Nhập thêm khách hàng vào file KH.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách khách\n" +
+                    "hàng đã có trong file.\n" +
+                    "2. Nhập thêm dịch vụ vào file DV.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách dịch vụ\n" +
+                    "đã có trong file.\n" +
+                    "3. Nhập hóa đơn cho mỗi khách hàng đã có trong file KH.TXT, trong đó mỗi khách hàng ứng với\n" +
+                    "một dịch vụ sử dụng sẽ có số lượng sử dụng (theo đơn vị tính); lưu vào file HOADON.TXT\n" +
+                    "và in danh sách ra màn hình. (Chú ý: cùng một khách hàng với một loại dịch vụ thì không được\n" +
+                    "xuất hiện quá một lần trong bảng này)\n" +
+                    "4. Sắp xếp danh sách hóa đơn đã lưu trong HOADON.TXT\n" +
+                    "a. Theo Họ tên khách hàng\n" +
+                    "b. Theo Số lượng sử dụng (giảm dần)\n" +
+                    "5. Lập bảng kê và tính toán số tiền phải trả cho mỗi khách hàng\n" +
+                    "ĐỀ THI LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG\n" +
+                    "Thời gian: 60 phút\n" +
+                    "Một số chú ý:\n" +
+                    "• Chương trình bắt buộc phải sử dụng giao diện. Sinh viên có thể sử dụng kéo thả. Các chức\n" +
+                    "năng có lựa chọn thì phải sử dụng hộp chọn.\n" +
+                    "• Sinh viên phải xử lý đầy đủ các ngoại lệ khi nhập dữ liệu và các ngoại lệ được yêu cầu trong\n" +
+                    "đề bài. Với hai câu 1 và 2, nếu không xử lý ngoại lệ thì không được tính điểm.\n" +
+                    "• Sinh viên tự thiết kế các lớp liên quan và phải mô tả đúng quan hệ giữa các lớp. .\n" +
+                    "• Dữ liệu được lưu ra file, sinh viên có thể tùy chọn file nhị phân hoặc file văn bản.\n" +
+                    "• Kết quả phải hiển thị dạng Bảng.\n" +
+                    "• Khuyến khích sử dụng các lớp thư viện Collections.\n" +
+                    "ĐỀ SỐ 7: QUẢN LÝ ĐIỂM SINH VIÊN\n" +
+                    "Thông tin về Sinh viên gồm (mã SV, Họ tên, Địa chỉ, Ngày sinh, Lớp). Trong đó mã sinh viên\n" +
+                    "là một số nguyên có 5 chữ số, tự động tăng. Lớp được chọn từ danh sách các lớp theo các đặt tên\n" +
+                    "tại HV CN BCVT.\n" +
+                    "Thông tin về Môn học (mã môn, tên môn, số đvht, loại môn). Trong đó, mã môn là một số nguyên có\n" +
+                    "3 chữ số, tự động tăng. Loại môn học có thể là Đại cương, Cơ sở ngành, Chuyên ngành.\n" +
+                    "Bổ sung Bảng điểm trong đó một sinh viên có một điểm cho mỗi môn học (0<=điếm<=10).\n" +
+                    "Viết chương trình trên Java sử dụng giao diện (có thể dùng kéo thả) thực hiện các chức năng sau:\n" +
+                    "1. Nhập thêm sinh viên vào file SV.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách sinh viên\n" +
+                    "đã có trong file.\n" +
+                    "2. Nhập thêm môn học vào file MONHOC.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách\n" +
+                    "môn học đã có trong file.\n" +
+                    "3. Nhập điểm cho mỗi sinh viên đã có trong file SV.TXT; lưu vào file BANGDIEM.TXT và in\n" +
+                    "danh sách ra màn hình. (Chú ý: mỗi sinh viên với một môn học chỉ được xuất hiện một lần\n" +
+                    "trong bảng này)\n" +
+                    "4. Sắp xếp danh sách tảng điểm đã lưu trong BANGDIEM.TXT\n" +
+                    "a. Theo Họ tên sinh viên\n" +
+                    "b. Theo Tên Môn học\n" +
+                    "5. Lập bảng tính điểm tổng kết chung cho mỗi sinh viên dựa trên điểm môn học và số đơn vị học\n" +
+                    "trình của môn học đó.\n" +
+                    "ĐỀ THI LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG\n" +
+                    "Thời gian: 60 phút\n" +
+                    "Một số chú ý:\n" +
+                    "• Chương trình bắt buộc phải sử dụng giao diện. Sinh viên có thể sử dụng kéo thả. Các\n" +
+                    "chức năng có lựa chọn thì phải sử dụng hộp chọn.\n" +
+                    "• Sinh viên phải xử lý đầy đủ các ngoại lệ khi nhập dữ liệu và các ngoại lệ được yêu cầu\n" +
+                    "trong đề bài. Với hai câu 1 và 2, nếu không xử lý ngoại lệ thì không được tính điểm.\n" +
+                    "• Sinh viên tự thiết kế các lớp liên quan và phải mô tả đúng quan hệ giữa các lớp. .\n" +
+                    "• Dữ liệu được lưu ra file, sinh viên có thể tùy chọn file nhị phân hoặc file văn bản.\n" +
+                    "• Kết quả phải hiển thị dạng Bảng.\n" +
+                    "• Khuyến khích sử dụng các lớp thư viện Collections.\n" +
+                    "ĐỀ SỐ 8: QUẢN LÝ TÍNH CÔNG BÁN HÀNG CHO SIÊU THỊ\n" +
+                    "Thông tin về Mặt hàng gồm các thuộc tính (mã hàng, Tên hàng, Nhóm hàng, Giá mua, Giá bán)\n" +
+                    "– trong đó Nhóm hàng có thể là: Hàng thời trang, Hàng tiêu dùng, Hàng điện máy, Hàng gia dụng.\n" +
+                    "Mã hàng là một số nguyên có 4 chữ số, tự động tăng.\n" +
+                    "Thông tin về Nhân viên bán hàng (mã NV, Họ tên, địa chỉ, Số ĐT), mã NV là một số nguyên có 4\n" +
+                    "chữ số, tự động tăng.\n" +
+                    "Bổ sung Bảng Danh sách bán hàng trong đó với mỗi nhân viên, nhập danh sách các mặt hàng và số\n" +
+                    "lượng mà nhân viên đó đã bán ra trong ngày.\n" +
+                    "Tự xác định các lớp cho phù hợp và viết chương trình có giao diện (có thể dùng kéo thả) thực hiện các\n" +
+                    "chức năng sau:\n" +
+                    "1. Nhập thêm mặt hàng mới vào file MH.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách các\n" +
+                    "mặt hàng đã có trong file.\n" +
+                    "2. Nhập thêm nhân viên bán hàng vào file NV.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh\n" +
+                    "sách nhân viên đã có trong file.\n" +
+                    "3. Lập Bảng danh sách bán hàng cho từng nhân viên, lưu vào file QLBH.TXT và in danh sách ra\n" +
+                    "màn hình (chú ý: cùng một nhân viên với một mặt hàng thì không thể xuất hiện 2 lần trong\n" +
+                    "bảng này).\n" +
+                    "4. Sắp xếp danh sách Bảng danh sách bán hàng đã lưu trong QLBH.TXT\n" +
+                    "a. Theo tên nhân viên\n" +
+                    "b. Theo tên mặt hàng\n" +
+                    "5. Lập bảng tính công cho mỗi nhân viên. Giá trị tiền công được tính là 2% tổng số lợi nhuận thu\n" +
+                    "được.\n" +
+                    "ĐỀ THI LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG\n" +
+                    "Thời gian: 60 phút\n" +
+                    "Một số chú ý:\n" +
+                    "• Chương trình bắt buộc phải sử dụng giao diện. Sinh viên có thể sử dụng kéo thả. Các\n" +
+                    "chức năng có lựa chọn thì phải sử dụng hộp chọn.\n" +
+                    "• Sinh viên phải xử lý đầy đủ các ngoại lệ khi nhập dữ liệu và các ngoại lệ được yêu cầu\n" +
+                    "trong đề bài. Với hai câu 1 và 2, nếu không xử lý ngoại lệ thì không được tính điểm.\n" +
+                    "• Sinh viên tự thiết kế các lớp liên quan và phải mô tả đúng quan hệ giữa các lớp. .\n" +
+                    "• Dữ liệu được lưu ra file, sinh viên có thể tùy chọn file nhị phân hoặc file văn bản.\n" +
+                    "• Kết quả phải hiển thị dạng Bảng.\n" +
+                    "• Khuyến khích sử dụng các lớp thư viện Collections.\n" +
+                    "ĐỀ SỐ 9: QUẢN LÝ CÔNG NHÂN\n" +
+                    "Thông tin về Công nhân gồm các thuộc tính (mã công nhân, Họ tên, Địa chỉ, Số điện thoại, Bậc\n" +
+                    "thợ) – trong đó Bậc thợ là một số nguyên từ 1 đến 7. Mã công nhân là một số nguyên có 4 chữ số, tự\n" +
+                    "động tăng.\n" +
+                    "Thông tin về Xưởng sản xuất (mã xưởng, tên xưởng, mô tả, Hệ số công việc), mã xưởng là một số\n" +
+                    "nguyên có 3 chữ số, tự động tăng. Hệ số công việc là một số thực từ trong khoảng từ 1 đến 20, cho\n" +
+                    "biết mức đánh giá chung về các công việc trong xưởng đó đảm nhiệm.\n" +
+                    "Bổ sung Bảng Danh sách chấm công (trong một tháng), trong đó với mỗi công nhân cho biết đang\n" +
+                    "làm tại xưởng nào tương ứng và số ngày làm việc tương ứng. Một công nhân có thể thay đổi xưởng\n" +
+                    "sản xuất nhiều lần trong tháng nhưng tổng số ngày làm việc không vượt quá 30.\n" +
+                    "Tự xác định các lớp cho phù hợp và viết chương trình có giao diện (có thể dùng kéo thả) thực hiện các\n" +
+                    "chức năng sau:\n" +
+                    "1. Nhập thêm công nhân mới vào file CN.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách\n" +
+                    "các công nhân đã có trong file.\n" +
+                    "2. Nhập thêm xưởng sản xuất vào file XSX.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách\n" +
+                    "xưởng đã có trong file.\n" +
+                    "3. Lập Bảng danh sách chấm công cho từng công nhân, lưu vào file QLCN.TXT và in danh sách\n" +
+                    "ra màn hình.\n" +
+                    "4. Sắp xếp danh sách Bảng danh sách phân công đã lưu trong QLNS.TXT\n" +
+                    "a. Theo tên công nhân\n" +
+                    "b. Theo xưởng\n" +
+                    "5. Lập bảng kê thu nhập cho mỗi công nhân trong tháng. Thu nhập = 450000*Bậc lương*Hệ số\n" +
+                    "công việc * (số ngày làm việc/22).\n" +
+                    "ĐỀ THI LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG\n" +
+                    "Thời gian: 60 phút\n" +
+                    "Một số chú ý:\n" +
+                    "• Chương trình bắt buộc phải sử dụng giao diện. Sinh viên có thể sử dụng kéo thả. Các chức\n" +
+                    "năng có lựa chọn thì phải sử dụng hộp chọn.\n" +
+                    "• Sinh viên phải xử lý đầy đủ các ngoại lệ khi nhập dữ liệu và các ngoại lệ được yêu cầu trong\n" +
+                    "đề bài. Với hai câu 1 và 2, nếu không xử lý ngoại lệ thì không được tính điểm.\n" +
+                    "• Sinh viên tự thiết kế các lớp liên quan và phải mô tả đúng quan hệ giữa các lớp. .\n" +
+                    "• Dữ liệu được lưu ra file, sinh viên có thể tùy chọn file nhị phân hoặc file văn bản.\n" +
+                    "• Kết quả phải hiển thị dạng Bảng.\n" +
+                    "• Khuyến khích sử dụng các lớp thư viện Collections.\n" +
+                    "ĐỀ SỐ 10: QUẢN LÝ CHO THUÊ XE Ô TÔ\n" +
+                    "Một công ty vẫn tại chia các ô tô hiện có theo nhiều loại và dựa trên thời gian thuê của từng khách để lập\n" +
+                    "hóa đơn tính tiền.\n" +
+                    "Thông tin về Ô tô gồm các thuộc tính (mã ô tô, Kiểu xe, Mức tiền thuê, Số xe) – với kiểu xe có thế là:\n" +
+                    "xe 4 chỗ loại thường, xe 4 chỗ loại cao cấp, xe 7 chỗ, xe tải. Mã ô tô là một số nguyên có 4 chữ số, tự\n" +
+                    "động tăng.\n" +
+                    "Thông tin về Khách hàng (mã khách hàng, tên khách hàng, loại xe cần thuê, số xe cần thuê), mã\n" +
+                    "khách hàng là một số nguyên có 3 chữ số, tự động tăng.\n" +
+                    "Bổ sung Bảng sắp xếp trong đó một khách hàng được sắp xếp thuê loại xe tương ứng cùng với số lượng\n" +
+                    "xe cần thuê loại đó và số ngày thuê.\n" +
+                    "Tự xác định các lớp cho phù hợp và viết chương trình có giao diện (có thể dùng kéo thả) thực hiện các\n" +
+                    "chức năng sau:\n" +
+                    "1. Nhập thêm ô tô vào file OTO.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách ô tô đã có\n" +
+                    "trong file.\n" +
+                    "2. Nhập thêm Khách hàng vào file KH.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách các\n" +
+                    "KH đã có trong file.\n" +
+                    "3. Nhập danh sách sắp xếp ô tô cho mỗi khách hàng đã có trong fie KH.TXT; lưu vào file\n" +
+                    "BANGSX.TXT và in danh sách ra màn hình. Chú ý kiểm tra số xe còn lại mỗi kiểu.\n" +
+                    "4. Sắp xếp danh sách đã lưu trong BANGSX.TXT\n" +
+                    "a. Theo loại xe\n" +
+                    "b. Theo số xe cần thuê\n" +
+                    "5. Tính toán và lập hóa đơn chi tiết cho mỗi khách hàng.\n" +
+                    "ĐỀ THI LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG\n" +
+                    "Thời gian: 60 phút\n" +
+                    "Một số chú ý:\n" +
+                    "• Chương trình bắt buộc phải sử dụng giao diện. Sinh viên có thể sử dụng kéo thả. Các chức\n" +
+                    "năng có lựa chọn thì phải sử dụng hộp chọn.\n" +
+                    "• Sinh viên phải xử lý đầy đủ các ngoại lệ khi nhập dữ liệu và các ngoại lệ được yêu cầu trong\n" +
+                    "đề bài. Với hai câu 1 và 2, nếu không xử lý ngoại lệ thì không được tính điểm.\n" +
+                    "• Sinh viên tự thiết kế các lớp liên quan và phải mô tả đúng quan hệ giữa các lớp. .\n" +
+                    "• Dữ liệu được lưu ra file, sinh viên có thể tùy chọn file nhị phân hoặc file văn bản.\n" +
+                    "• Kết quả phải hiển thị dạng Bảng.\n" +
+                    "• Khuyến khích sử dụng các lớp thư viện Collections.\n" +
+                    "ĐỀ SỐ 11: QUẢN LÝ TÍNH NHUẬN BÚT CHO PHÓNG VIÊN\n" +
+                    "Thông tin về Phóng viên gồm các thuộc tính (mã PV, Họ tên, Địa chỉ, Loại phóng viên) – trong đó\n" +
+                    "loại phóng viên có thể là: chuyên nghiệp, nghiệp dư, cộng tác viên. Mã PV là một số nguyên có 5 chữ\n" +
+                    "số, tự động tăng.\n" +
+                    "Thông tin về Kiểu Bài viết (mã kiểu bài, tên kiểu bài, đơn giá), mã kiểu bài là một số nguyên có 3\n" +
+                    "chữ số, tự động tăng.\n" +
+                    "Bổ sung Bảng Tính Công trong đó một phóng viên sẽ có một số bài viết thuộc các kiểu khác nhau\n" +
+                    "trong tháng (có thể có nhiều bài cùng kiểu và nhiều kiểu bài khác nhau). Giả sử mỗi phóng viên chỉ\n" +
+                    "được tham gia viết tối đa 5 kiểu bài khác nhau.\n" +
+                    "Tự xác định các lớp cho phù hợp và viết chương trình có giao diện (có thể dùng kéo thả) thực hiện các\n" +
+                    "chức năng sau:\n" +
+                    "1. Nhập thêm phóng viên vào file PV.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách phóng\n" +
+                    "viên đã có trong file.\n" +
+                    "2. Nhập thêm kiểu bài viết vào file KB.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách kiểu\n" +
+                    "bài đã có trong file.\n" +
+                    "3. Lập Bảng tính công cho phóng viên bằng cách nhập các kiểu bài mà mỗi phóng viên đã có\n" +
+                    "trong file PV.TXT đã viết cùng số lượng tương ứng; lưu vào file TINHCONG.TXT và in danh\n" +
+                    "sách ra màn hình. (Chú ý: một phóng viên với cùng một kiểu bài không được phép xuất hiện\n" +
+                    "quá một lần trong bảng này)\n" +
+                    "4. Sắp xếp danh sách Bảng tính công đã lưu trong TINHCONG.TXT\n" +
+                    "a. Theo Họ tên phóng viên\n" +
+                    "b. Theo Số lượng bài viết (giảm dần)\n" +
+                    "5. Lập bảng kê chi tiết để tính toán thu nhập của mỗi phóng viên\n" +
+                    "ĐỀ THI LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG\n" +
+                    "Thời gian: 60 phút\n" +
+                    "Một số chú ý:\n" +
+                    "• Chương trình bắt buộc phải sử dụng giao diện. Sinh viên có thể sử dụng kéo thả. Các chức\n" +
+                    "năng có lựa chọn thì phải sử dụng hộp chọn.\n" +
+                    "• Sinh viên phải xử lý đầy đủ các ngoại lệ khi nhập dữ liệu và các ngoại lệ được yêu cầu trong\n" +
+                    "đề bài. Với hai câu 1 và 2, nếu không xử lý ngoại lệ thì không được tính điểm.\n" +
+                    "• Sinh viên tự thiết kế các lớp liên quan và phải mô tả đúng quan hệ giữa các lớp. .\n" +
+                    "• Dữ liệu được lưu ra file, sinh viên có thể tùy chọn file nhị phân hoặc file văn bản.\n" +
+                    "• Kết quả phải hiển thị dạng Bảng.\n" +
+                    "• Khuyến khích sử dụng các lớp thư viện Collections.\n" +
+                    "ĐỀ SỐ 12: QUẢN LÝ BÁN ĐIỆN THOẠI DI ĐỘNG\n" +
+                    "Thông tin về Khách hàng gồm các thuộc tính (mã KH, Họ tên, Địa chỉ, Nhóm KH) – trong đó nhóm\n" +
+                    "khách hàng có thể gồm: mua lẻ, mua buôn, mua qua mạng, mã KH là một số nguyên có 5 chữ số, tự\n" +
+                    "động tăng.\n" +
+                    "Thông tin về Điện thoại (mã sp, hãng sản xuất, model, đơn giá), mã sản phẩm là một số nguyên có 5\n" +
+                    "chữ số, tự động tăng.\n" +
+                    "Bổ sung Hóa đơn trong đó một khách hàng có thể chọn mua một hoặc nhiều điện thoại với số lượng khác\n" +
+                    "nhau.\n" +
+                    "Tự xác định các lớp cho phù hợp và viết chương trình có giao diện (có thể dùng kéo thả) thực hiện các\n" +
+                    "chức năng sau:\n" +
+                    "1. Nhập thêm Khách hàng vào file KH.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách khách\n" +
+                    "hàng đã có trong file.\n" +
+                    "2. Nhập thêm sản phẩm Điện thoại di động mới vào file MOBI.TXT. Có xử lý ngoại lệ. Hiển thị\n" +
+                    "ra Bảng danh sách sản phẩm đã có trong file.\n" +
+                    "3. Nhập danh sách mua hàng cho mỗi khách hàng đã có trong file KH.TXT. Lưu vào file\n" +
+                    "HOADON.TXT và in danh sách ra màn hình .\n" +
+                    "4. Sắp xếp danh sách mua hàng đã lưu trong HOADON.TXT\n" +
+                    "a. Theo Họ tên khách hàng\n" +
+                    "b. Theo Số lượng điện thoại đặt mua (giảm dần)\n" +
+                    "5. Lập bảng kê chi tiết để tính tổng số tiền phải trả cho mỗi khách hàng\n" +
+                    "ĐỀ THI LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG\n" +
+                    "Thời gian: 60 phút\n" +
+                    "Một số chú ý:\n" +
+                    "• Chương trình bắt buộc phải sử dụng giao diện. Sinh viên có thể sử dụng kéo thả. Các chức\n" +
+                    "năng có lựa chọn thì phải sử dụng hộp chọn.\n" +
+                    "• Sinh viên phải xử lý đầy đủ các ngoại lệ khi nhập dữ liệu và các ngoại lệ được yêu cầu trong\n" +
+                    "đề bài. Với hai câu 1 và 2, nếu không xử lý ngoại lệ thì không được tính điểm.\n" +
+                    "• Sinh viên tự thiết kế các lớp liên quan và phải mô tả đúng quan hệ giữa các lớp. .\n" +
+                    "• Dữ liệu được lưu ra file, sinh viên có thể tùy chọn file nhị phân hoặc file văn bản.\n" +
+                    "• Kết quả phải hiển thị dạng Bảng.\n" +
+                    "• Khuyến khích sử dụng các lớp thư viện Collections.\n" +
+                    "ĐỀ SỐ 13: QUẢN LÝ BÁN VÉ THÁNG XE BUÝT\n" +
+                    "Thông tin về Hành khách gồm các thuộc tính (mã HK, Họ tên, Địa chỉ, Loại khách) – với quy định\n" +
+                    "loại hành khách gồm: học sinh sinh viên, cán bộ trong ngành và khách thông thường. Mã HK là một số\n" +
+                    "nguyên có 5 chữ số, tự động tăng.\n" +
+                    "Thông tin về Loại vé (mã loại, mô tả, giá bán), mã loại vé là một số nguyên có 3 chữ số, tự động tăng.\n" +
+                    "Phần mô tả cho biết loại vé là riêng cho tuyến nào, một số tuyến cụ thể nào hoặc liên tuyến.\n" +
+                    "Bổ sung Bảng kê bán vé trong đó một hành khách được mua nhiều loại vé khác nhau nhưng mỗi loại\n" +
+                    "chỉ được mua một vé trong một tháng. Giả sử tổng số loại vé được mua của mỗi hành khách không vượt\n" +
+                    "quá 3.\n" +
+                    "Tự xác định các lớp cho phù hợp và viết chương trình có giao diện (có thể dùng kéo thả) thực hiện các\n" +
+                    "chức năng sau:\n" +
+                    "1. Nhập thêm Hành khách vào file HK.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách hành\n" +
+                    "khách đã có trong file.\n" +
+                    "2. Nhập thêm Loại vé vào file VE.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách các loại\n" +
+                    "vé đã có trong file.\n" +
+                    "3. Nhập danh sách bán vé cho mỗi hành khách đã có trong file HK.TXT; lưu vào file\n" +
+                    "BANVE.TXT và in danh sách ra màn hình .\n" +
+                    "4. Sắp xếp danh sách bán vé đã lưu trong BANVE.TXT\n" +
+                    "a. Theo Họ tên hành khách\n" +
+                    "b. Theo Loại vé\n" +
+                    "5. Lập bảng tính tổng giá tiền phải trả của mỗi hành khách. Chú ý: Học sinh sinh viên được giảm\n" +
+                    "50%, cán bộ trong ngành được giảm 70%.\n" +
+                    "ĐỀ THI LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG\n" +
+                    "Thời gian: 60 phút\n" +
+                    "Một số chú ý:\n" +
+                    "• Chương trình bắt buộc phải sử dụng giao diện. Sinh viên có thể sử dụng kéo thả. Các chức\n" +
+                    "năng có lựa chọn thì phải sử dụng hộp chọn.\n" +
+                    "• Sinh viên phải xử lý đầy đủ các ngoại lệ khi nhập dữ liệu và các ngoại lệ được yêu cầu trong\n" +
+                    "đề bài. Với hai câu 1 và 2, nếu không xử lý ngoại lệ thì không được tính điểm.\n" +
+                    "• Sinh viên tự thiết kế các lớp liên quan và phải mô tả đúng quan hệ giữa các lớp. .\n" +
+                    "• Dữ liệu được lưu ra file, sinh viên có thể tùy chọn file nhị phân hoặc file văn bản.\n" +
+                    "• Kết quả phải hiển thị dạng Bảng.\n" +
+                    "• Khuyến khích sử dụng các lớp thư viện Collections.\n" +
+                    "ĐỀ SỐ 14: QUẢN LÝ BÁN VÉ MÁY BAY\n" +
+                    "Thông tin về Người mua vé gồm các thuộc tính (Mã người mua, Họ tên, Địa chỉ, Loại) – trong đó\n" +
+                    "nhóm người mua có thể là: mua lẻ, mua tập thể, mua qua mạng, mã người mua là một số nguyên có 5\n" +
+                    "chữ số, tự động tăng.\n" +
+                    "Thông tin về Loại vé máy bay (mã vé, loại vé, đơn giá), mã vé là một số nguyên có 5 chữ số, tự động\n" +
+                    "tăng. Loại vé có thể là: doanh nhân, phổ thông, phổ thông giá rẻ, thẻ vàng, thẻ xanh, ngoại giao ...\n" +
+                    "Bổ sung Hóa đơn, trong đó một người mua có thể một mua một hoặc nhiều vé.\n" +
+                    "Tự xác định các lớp cho phù hợp và viết chương trình có giao diện (có thể dùng kéo thả) thực hiện các\n" +
+                    "chức năng sau:\n" +
+                    "1. Nhập thêm người mua vé vào file NGUOIMUA.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh\n" +
+                    "sách người mua đã có trong file.\n" +
+                    "2. Nhập thêm loại vé vào file VE.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách các loại\n" +
+                    "vé đã có trong file.\n" +
+                    "3. Nhập danh sách hóa đơn mua vé cho mỗi người mua đã có trong file NGUOIMUA.TXT; (giả\n" +
+                    "sử mỗi người mua có thể mua một hoặc nhiều loại vé nhưng không quá 3 loại, mỗi loại có một\n" +
+                    "số lượng xác định nhưng không quá 10 vé một lần mua). Lưu vào file HOADON.TXT và in\n" +
+                    "danh sách ra màn hình.\n" +
+                    "4. Sắp xếp danh sách hóa đơn đã lưu trong HOADON.TXT\n" +
+                    "a. Theo Họ tên người mua\n" +
+                    "b. Theo Số lượng vé mua (giảm dần)\n" +
+                    "5. Lập bảng kê để tính toán chi tiết số tiền phải trả cho mỗi người mua\n" +
+                    "ĐỀ THI LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG\n" +
+                    "Thời gian: 60 phút\n" +
+                    "Một số chú ý:\n" +
+                    "• Chương trình bắt buộc phải sử dụng giao diện. Sinh viên có thể sử dụng kéo thả. Các\n" +
+                    "chức năng có lựa chọn thì phải sử dụng hộp chọn.\n" +
+                    "• Sinh viên phải xử lý đầy đủ các ngoại lệ khi nhập dữ liệu và các ngoại lệ được yêu cầu\n" +
+                    "trong đề bài. Với hai câu 1 và 2, nếu không xử lý ngoại lệ thì không được tính điểm.\n" +
+                    "• Sinh viên tự thiết kế các lớp liên quan và phải mô tả đúng quan hệ giữa các lớp. .\n" +
+                    "• Dữ liệu được lưu ra file, sinh viên có thể tùy chọn file nhị phân hoặc file văn bản.\n" +
+                    "• Kết quả phải hiển thị dạng Bảng.\n" +
+                    "• Khuyến khích sử dụng các lớp thư viện Collections.\n" +
+                    "ĐỀ SỐ 15: QUẢN LÝ TÍNH LƯƠNG THEO NGÀY CÔNG\n" +
+                    "Thông tin về Nhân viên gồm các thuộc tính (mã nhân viên, Họ tên, Địa chỉ, Số điện thoại, Bậc\n" +
+                    "lương) – trong đó Bậc lương là một số nguyên từ 1 đến 9. Mã nhân viên là một số nguyên có 4 chữ\n" +
+                    "số, tự động tăng.\n" +
+                    "Thông tin về Phòng ban (mã phòng, tên phòng, mô tả, Hệ số công việc), mã phòng là một số nguyên\n" +
+                    "có 3 chữ số, tự động tăng. Hệ số công việc là một số thực từ trong khoảng từ 1 đến 20, cho biết mức\n" +
+                    "đánh giá chung về các công việc thuộc phòng đó đảm nhiệm.\n" +
+                    "Bổ sung Bảng Danh sách chấm công (trong một tháng), trong đó với mỗi nhân viên cho biết phòng\n" +
+                    "ban tương ứng và số ngày làm việc trong tháng.\n" +
+                    "Tự xác định các lớp cho phù hợp và viết chương trình có giao diện (có thể dùng kéo thả) thực hiện các\n" +
+                    "chức năng sau:\n" +
+                    "1. Nhập thêm nhân viên mới vào file NV.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách các\n" +
+                    "nhân viên đã có trong file.\n" +
+                    "2. Nhập thêm phòng ban vào file PB.TXT. Có xử lý ngoại lệ. Hiển thị ra Bảng danh sách phòng\n" +
+                    "ban đã có trong file.\n" +
+                    "3. Lập Bảng danh sách chấm công cho từng nhân viên, lưu vào file QLNS.TXT và in danh sách\n" +
+                    "ra màn hình (chú ý: cùng một nhân viên không thể làm việc ở hai phòng ban khác nhau).\n" +
+                    "4. Sắp xếp danh sách Bảng danh sách phân công đã lưu trong QLNS.TXT\n" +
+                    "a. Theo tên nhân viên\n" +
+                    "b. Theo phòng ban\n" +
+                    "5. Lập bảng kê thu nhập cho mỗi nhân viên trong tháng. Thu nhập = 1250000*(2 + Bậc\n" +
+                    "lương/3)*Hệ số công việc * (số ngày làm việc/22). "
